@@ -6,7 +6,7 @@ import { NavProps } from "../utils/types/index.ts";
 export default ({ inView }: NavProps) => {
     return (
         <div class={tw`relative xl:fixed`}>
-            <nav class={tw`flex flex-col my-8`}>
+            <nav class={tw`flex flex-col my-0 xl:my-8`}>
             <a class={tw`flex flex-row`} href={'/'}>
                 <img class={tw`w-28 mx-auto`} src="/hanko.png" alt="Miwako's hanko, a traditional artist's signature in Japan." />
             </a>
