@@ -35,7 +35,7 @@ export default function Home() {
           {/* fixed nav and socials bar */}
           <Nav inView={inView} />
         </div>
-        <h1 class={tw`w-5/6 mx-auto xl:mx-0 xl:w-100 text-4xl text-red-500 font-title mt-0 xl:mt-12`}>miwako nishizawa</h1>
+        <h1 class={tw`col-span-1 xl:col-start-2 xl:col-end-5 w-fit xl:w-full mx-auto xl:mx-0 xl:w-100 text-4xl text-red-500 font-title mt-0 xl:mt-12`}>miwako nishizawa</h1>
         <section class={tw`col-span-1 xl:col-start-2 xl:col-end-5`} data-scrollspy="#woodblock" id="woodblock">
           {/* woodblock section */}
           <div class={tw`flex flex-col mt-10`}>
