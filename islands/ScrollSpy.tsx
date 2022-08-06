@@ -17,8 +17,7 @@ export default ({ setter }) => {
     useLayoutEffect(() => {
         const scrollables: NodeListOf<Element> = document.querySelectorAll("[data-scrollspy]");
         // console.log(scrollables)
-        for (let scrollable of scrollables) {
-            // console.log('hello observer')
+        scrollables.forEach((scrollable)=> {
             const observer = new IntersectionObserver(
                 (entries) => {
                     entries.forEach((entry) => {
@@ -41,7 +40,7 @@ export default ({ setter }) => {
                 }
             );
             observer.observe(scrollable);
-        }
+        })
     }, [scroll, setter])
 
     return (
