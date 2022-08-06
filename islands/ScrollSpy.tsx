@@ -45,6 +45,6 @@ export default ({ setter }) => {
     }, [scroll, setter])
 
     return (
-        <div/>
+        <div style={{height: '0px'}}/>
     );
 }
