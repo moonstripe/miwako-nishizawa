@@ -1,11 +1,3 @@
-# fresh project
+# Miwako Nishizawa's Homepage
 
-### Usage
-
-Start the project:
-
-```
-deno task start
-```
-
-This will watch the project directory and restart as necessary.
+Designed by [Moonstripe Design](https://www.moonstripe.com/)
