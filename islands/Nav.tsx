@@ -25,7 +25,7 @@ export default ({ inView }: NavProps) => {
 
                 <br class={tw`my-0 xl:my-20 w-1/3 mx-auto`} />
 
-                <div class={tw`w-fit mx-auto invisible xl:visible`}>
+                <div class={tw`w-fit mx-auto invisible xl:visible h-0 xl:h-fit`}>
                     <p class={tw`text-sm w-2/3 mb-2`}>© artwork:</p>
                     <p class={tw`text-sm w-2/3 mb-6 ml-4`}>Miwako Nishizawa</p>
                     <p class={tw`text-sm w-2/3 mb-2`}>© website:</p>
