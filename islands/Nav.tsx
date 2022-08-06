@@ -10,12 +10,12 @@ export default ({ inView }: NavProps) => {
             <a class={tw`flex flex-row`} href={'/'}>
                 <img class={tw`w-28 mx-auto`} src="/hanko.png" alt="Miwako's hanko, a traditional artist's signature in Japan." />
             </a>
-                <div class={tw`w-fit mx-auto mt-8`}>
+                <div class={tw`w-fit mx-auto mt-8 invisible xl:visible`}>
                     <a href="#woodblock" id="woodblock-nav" class={tw`my-4`}><p>Woodblock</p></a>
                     <a href="#artist" id="artist-nav" class={tw`my-4`}><p>Artist</p></a>
                 </div>
 
-                <br class={tw`my-20 w-5/6 mx-auto`} />
+                <br class={tw`my-0 xl:my-20 w-5/6 mx-auto`} />
 
                 <div class={tw`w-fit mx-auto`}>
                     <svg class="my-4" viewBox="0 0 24 24" width="24px" fill="#0a66c2"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path></svg>
@@ -23,9 +23,9 @@ export default ({ inView }: NavProps) => {
                     <svg class="my-4" viewBox="0 0 24 24" width="24px" fill="#ff0000"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"></path></svg>
                 </div>
 
-                <br class={tw`my-20 w-1/3 mx-auto`} />
+                <br class={tw`my-0 xl:my-20 w-1/3 mx-auto`} />
 
-                <div class={tw`w-fit mx-auto`}>
+                <div class={tw`w-fit mx-auto invisible xl:visible`}>
                     <p class={tw`text-sm w-2/3 mb-2`}>© artwork:</p>
                     <p class={tw`text-sm w-2/3 mb-6 ml-4`}>Miwako Nishizawa</p>
                     <p class={tw`text-sm w-2/3 mb-2`}>© website:</p>
