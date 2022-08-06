@@ -10,7 +10,7 @@ export default ({ inView }: NavProps) => {
             <a class={tw`flex flex-row`} href={'/'}>
                 <img class={tw`w-28 mx-auto`} src="/hanko.png" alt="Miwako's hanko, a traditional artist's signature in Japan." />
             </a>
-                <div class={tw`w-fit mx-auto xl:mt-8 invisible xl:visible h-0 xl:h-fit`}>
+                <div class={tw`w-fit mx-auto xl:mt-8 invisible xl:visible h-0 xl:h-full`}>
                     <a href="#woodblock" id="woodblock-nav" class={tw`my-4`}><p>Woodblock</p></a>
                     <a href="#artist" id="artist-nav" class={tw`my-4`}><p>Artist</p></a>
                 </div>
