@@ -13,6 +13,10 @@ export interface LayoutProps {
     meta: Meta;
 }
 
+export interface ScrollSpyProps {
+    setter: Function
+}
+
 export interface NavProps {
     inView: string | undefined;
 }

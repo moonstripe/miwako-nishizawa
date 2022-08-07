@@ -1,9 +1,10 @@
 /** @jsx h */
 import { h } from "preact"
 import { useLayoutEffect, useState } from "preact/hooks";
+import { ScrollSpyProps } from "../utils/types/index.ts";
 
 
-export default ({ setter }) => {
+export default ({ setter }: ScrollSpyProps) => {
     const [scroll, setScroll] = useState<number>(0)
 
     const isInViewPort = (entry: any, offset = 200) => {
