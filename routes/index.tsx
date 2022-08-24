@@ -49,48 +49,108 @@ export default function Home() {
                   </a>
                 </div>
                 <div class={tw`w-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/college.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/college.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>College of William and Mary</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(24" x 11")</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/skyline.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/skyline.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Skyline Drive</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(12" x 22.5")</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/monticello.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/monticello.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Monticello</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(19" x 14")</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/hollywood.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/hollywood.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Hollywood Cemetary, Richmond</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(16" diameter)</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class={tw`flex flex-wrap w-1/2 h-full`}>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/jamestown.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/jamestown.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Jamestown</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(19" x 14")</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/floyd.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/floyd.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Floyd Country Store</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(11" x 19")</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/bridge.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/bridge.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Natural Bridge</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(19" x 14")</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/manassas.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/manassas.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Manassas Battlefield</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(10" x 24")</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/horse.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/horse.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Colonial Williamsburg</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(24" x 11")</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class={tw`flex flex-wrap w-full h-full`}>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/lighthouse.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/lighthouse.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Fort Story</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(11" x 19")</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -101,24 +161,54 @@ export default function Home() {
             <div class={tw`flex flex-wrap -m-1 md:-m-2`}>
               <div class={tw`flex flex-wrap w-1/2 h-full`}>
                 <div class={tw`w-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/tam1.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/tam1.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Oakland, Dusk</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(7.5" diameter)</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/tam2.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/tam2.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Oakland, Midday</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(7.5" diameter)</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/tam3.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/tam3.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Oakland, Night</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(7.5" diameter)</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/tam11.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/tam11.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Fairfax, Grass</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(7.5" diameter)</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/tam9.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/tam9.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Berkeley, Afternoon</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(7.5" diameter)</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class={tw`flex flex-wrap w-1/2 h-full`}>
@@ -129,24 +219,54 @@ export default function Home() {
                   </a>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/tam5.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/tam5.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Fairfax, Full Moon</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(7.5" diameter)</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/tam6.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/tam6.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Fairfax, Sunrise</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(7.5" diameter)</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/tam7.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/tam7.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Fairfax, California Poppy</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(7.5" diameter)</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/tam8.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/tam8.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>Berkeley, Evening</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(7.5" diameter)</p>
+                    </div>
+                  </div>
                 </div>
                 <div class={tw`w-full h-full p-1 md:p-2`}>
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
-                    src="/woodblock/tam10.jpeg" />
+                  <div class={tw`relative group`}>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded"
+                      src="/woodblock/tam10.jpeg" />
+                    <div class={tw`absolute rounded top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[rgba(0,0,0,0)] group-hover:h-full group-hover:bg-[rgba(0,0,0,0.25)] duration-150 m-0`}>
+                      <p class={tw`text-white font-title opacity-0 group-hover:opacity-100`}>San Anselmo, Autumn</p>
+                      <p class={tw`text-white font-light font-title opacity-0 group-hover:opacity-100`}>(7.5" diameter)</p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
