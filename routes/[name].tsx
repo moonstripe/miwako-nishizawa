@@ -14,12 +14,10 @@ export default function Lost(props: PageProps) {
     image: "/hanko.png"
   };
 
-  console.log(props)
-
   return (
     <Layout meta={lostSEO}>
       <p class={tw`mt-5 text-xl`}>Looks like you're lost!</p>
-      <p class={tw`mt-5`}>There isn't anything at www.miwakonishizawa.art{props.url.pathname}</p>
+      <p class={tw`mt-5`}>There isn't anything at www.miwakonishizawa.com{props.url.pathname}</p>
       <p class={tw`mt-5`}><a class={tw`text-red-500`} href="/">Return home</a>.</p>
     </Layout>
   )

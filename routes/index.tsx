@@ -1,6 +1,5 @@
 /** @jsx h */
 import { h } from "preact";
-import { useEffect, useState, useCallback } from "preact/hooks";
 import { tw } from "@twind";
 import Layout from '../components/Layout.tsx'
 import { Meta } from "../utils/types/index.ts";
@@ -8,32 +7,21 @@ import Nav from "../islands/Nav.tsx";
 import ScrollSpy from "../islands/ScrollSpy.tsx";
 
 export default function Home() {
-  const [inView, setInView] = useState<string | undefined>()
-
-  const setScrollSpy = useCallback((id: string) => {
-    setInView(id)
-  }, [])
-
   const homeSEO: Meta = {
     title: "Miwako Nishizawa: Artist",
     type: "website",
     description: "Miwako Nishizawa is a woodblock printer who resides in Berkeley, CA.",
-    url: "www.miwakonishizawa.art/",
+    url: "www.miwakonishizawa.com/",
     image: "/hanko.png"
   }
 
-  useEffect(() => {
-    console.log('inView:')
-    console.log(inView)
-  }, [inView])
-
   return (
     <Layout meta={homeSEO}>
-      <ScrollSpy setter={setScrollSpy} />
+      <ScrollSpy />
       <div class={tw`grid grid-cols-1 xl:grid-cols-4 font-sans mx-2`}>
         <div class={tw`col-span-1`}>
           {/* fixed nav and socials bar */}
-          <Nav inView={inView} />
+          <Nav />
         </div>
         <h1 class={tw`col-span-1 xl:col-start-2 xl:col-end-5 w-fit xl:w-full mx-auto xl:mx-0 xl:w-100 text-4xl text-red-500 font-title mt-0 xl:mt-12`}>miwako nishizawa</h1>
         <section class={tw`col-span-1 xl:col-start-2 xl:col-end-5`} data-scrollspy="#woodblock" id="woodblock">
