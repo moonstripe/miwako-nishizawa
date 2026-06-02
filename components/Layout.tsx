@@ -39,7 +39,7 @@ export default ({ children, meta }: LayoutProps) => {
 
                 <meta property="og:image:type" content="image/png" />
 
-                <meta property="og:image:alt" content="the fresh logo: a sliced lemon dripping with juice." />
+                <meta property="og:image:alt" content={meta.title} />
 
                 {/* Twitter */}
 
@@ -47,13 +47,9 @@ export default ({ children, meta }: LayoutProps) => {
 
                 <meta name="twitter:description" content={meta.description} />
 
-                <meta name="twitter:site" content="@deno_land" />
-
-                <meta name="twitter:creator" content="@deno_land" />
-
                 {/* Canonical */}
 
-                <link rel="canonical" href="https://www.fresh.deno.dev/" />
+                <link rel="canonical" href="https://www.miwakonishizawa.art/" />
 
                 {/* Fonts */}
                 <link href="http://fonts.cdnfonts.com/css/lucida-sans" rel="stylesheet"></link>

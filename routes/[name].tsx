@@ -14,8 +14,6 @@ export default function Lost(props: PageProps) {
     image: "/hanko.png"
   };
 
-  console.log(props)
-
   return (
     <Layout meta={lostSEO}>
       <p class={tw`mt-5 text-xl`}>Looks like you're lost!</p>

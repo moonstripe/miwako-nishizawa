@@ -1,9 +1,8 @@
 /** @jsx h */
 import { h } from "preact";
 import { tw } from "@twind";
-import { NavProps } from "../utils/types/index.ts";
 
-export default ({ inView }: NavProps) => {
+export default () => {
     return (
         <div class={tw`relative xl:fixed`}>
             <nav class={tw`flex flex-col my-0 xl:my-4`}>
