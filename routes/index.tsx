@@ -11,7 +11,7 @@ export default function Home() {
     title: "Miwako Nishizawa: Artist",
     type: "website",
     description: "Miwako Nishizawa is a woodblock printer who resides in Berkeley, CA.",
-    url: "www.miwakonishizawa.art/",
+    url: "www.miwakonishizawa.com/",
     image: "/hanko.png"
   }
 
