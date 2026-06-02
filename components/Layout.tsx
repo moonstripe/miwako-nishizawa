@@ -49,7 +49,7 @@ export default ({ children, meta }: LayoutProps) => {
 
                 {/* Canonical */}
 
-                <link rel="canonical" href="https://www.miwakonishizawa.art/" />
+                <link rel="canonical" href="https://www.miwakonishizawa.com/" />
 
                 {/* Fonts */}
                 <link href="http://fonts.cdnfonts.com/css/lucida-sans" rel="stylesheet"></link>
